@@ -1,5 +1,5 @@
 #define TOOTH_COUNT 116
-#define TOOTH_COUNT_OUT 24
+#define TOOTH_COUNT_OUT 36
 #define TOOTH_MISSING_OUT 1
 
 int toothCounter = 0;
