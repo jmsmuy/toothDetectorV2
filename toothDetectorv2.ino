@@ -41,8 +41,8 @@ void referenceToothDetected() {
 
 void setup() {
   // put your setup code here, to run once:
-  attachInterrupt(digitalPinToInterrupt(2), smallToothDetected, FALLING);
-  attachInterrupt(digitalPinToInterrupt(3), referenceToothDetected, RISING);
+  attachInterrupt(digitalPinToInterrupt(3), smallToothDetected, FALLING);
+  attachInterrupt(digitalPinToInterrupt(2), referenceToothDetected, RISING);
   toothLengthCoef = TOOTH_COUNT / (TOOTH_COUNT_OUT * 2);
   DDRB = B11000000;
   DDRA = B11111111;
